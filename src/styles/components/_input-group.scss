@@ -1,0 +1,14 @@
+.input-group {
+    display: flex;
+    margin-bottom: 1.6rem;
+   @media (min-width: 45rem) {
+      flex-direction: row;  
+      margin-bottom: 1.6rem;
+   }
+}
+.input-group__item {
+margin-right: 0.5rem;
+@media (min-width: 45rem) {
+    margin: 0 1.6rem 0 0;
+}
+}
